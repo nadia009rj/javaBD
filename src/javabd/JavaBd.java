@@ -43,6 +43,10 @@ public class JavaBd {
         }
     }
     
+    
+    
+    // pour supprimer un auteur en un id
+    
     public static int deleteAuthor(int id) throws SQLException{
        
     Connection cn = getDatabaseConnection();
